@@ -5,7 +5,7 @@
 #include<arpa/inet.h> //inet_addr
 #include<unistd.h> //write
 #include<time.h>
-//int main(int argc , char *argv[])
+
 void doprocessing (int sock)
 {
 int socket_desc , new_socket , c;
